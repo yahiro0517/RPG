@@ -1,5 +1,5 @@
 package extend.practice;
 
-public class Human {
+public abstract class Human extends Living {
 
 }
