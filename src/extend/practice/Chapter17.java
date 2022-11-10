@@ -43,7 +43,7 @@ public class Chapter17 {
 		    // 当該モンスターのHPが0になったら
 		    if (monster.hp <= 0) {
 		        // リストから削除
-		    	System.out.println(monster + "は倒れた。");
+		    	System.out.println(monster.name + "は倒れた。");
 		    	monster_list.remove(monster);
 		    }
 		    // リストが無くなったらbreak		    	
@@ -65,7 +65,7 @@ public class Chapter17 {
 		    // 当該人間のHPが0になったら
 		    if (human1.hp <= 0) {
 		        //リストから削除
-		    	System.out.println(human1 + "は倒れた。");
+		    	System.out.println(human1.name + "は倒れた。");
 		    	human_list.remove(human1);		    	
 		    }
 		 // リストが無くなったらbreak		    	
