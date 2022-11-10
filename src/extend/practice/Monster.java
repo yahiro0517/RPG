@@ -1,5 +1,5 @@
 package extend.practice;
 
-public class Monster {
+public abstract class Monster extends Living {
 
 }
