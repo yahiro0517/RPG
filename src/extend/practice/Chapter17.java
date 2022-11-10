@@ -46,8 +46,9 @@ public class Chapter17 {
 		    	System.out.println(monster + "は倒れた。");
 		    	monster_list.remove(monster);
 		    }
+		    // リストが無くなったらbreak		    	
 		    if (monster_list == null) {
-		    	// リストが無くなったらbreak		    	
+		    	System.out.println("勇者は勝利した！");
 		    	break;
 		    }
 		    
@@ -67,12 +68,12 @@ public class Chapter17 {
 		    	System.out.println(human1 + "は倒れた。");
 		    	human_list.remove(human1);		    	
 		    }
+		 // リストが無くなったらbreak		    	
 		    if (human_list == null) {
-			    // リストが無くなったらbreak
-			    break;				 	
+		    	System.out.println("モンスターは勝利した！");
+			    break;		 	
 		    }
 		}
-		System.out.println():
 	}
 	
 }
