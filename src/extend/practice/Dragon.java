@@ -46,8 +46,5 @@ public class Dragon extends Monster {
 		int damage = offensive * Rand.get(9);
 		System.out.println(this.name + "が" + this.skill + "で攻撃！" + target.name + "に" + damage + "のダメージ！");
 		this.hp = this.hp - damage;
-	}
-	
-	
-	
+	}	
 }

@@ -47,7 +47,7 @@ public class Chapter17 {
 		    	monster_list.remove(monster);
 		    }
 		    // リストが無くなったらbreak		    	
-		    if (monster_list == null) {
+		    if (monster_list.isEmpty()) {
 		    	System.out.println("勇者は勝利した！");
 		    	break;
 		    }
@@ -59,7 +59,7 @@ public class Chapter17 {
 			
 			int rand3 = Rand.get(human_list.size());
 		    Human human1 = human_list.get(rand3);
-		 // 実際に、攻撃者がターゲットに攻撃
+		    // 実際に、攻撃者がターゲットに攻撃
 		    monster1.attack(human1);
 
 		    // 当該人間のHPが0になったら
@@ -68,8 +68,8 @@ public class Chapter17 {
 		    	System.out.println(human1.name + "は倒れた。");
 		    	human_list.remove(human1);		    	
 		    }
-		 // リストが無くなったらbreak		    	
-		    if (human_list == null) {
+		    // リストが無くなったらbreak		    	
+		    if (human_list.isEmpty()) {
 		    	System.out.println("モンスターは勝利した！");
 			    break;		 	
 		    }
