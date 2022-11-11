@@ -3,7 +3,7 @@ package extend.practice;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Chapter17 {
+public class Main {
 	public static void main(String[] args) {
 		List<Human> human_list = new ArrayList<>();
 			Human brave = new Brave();
